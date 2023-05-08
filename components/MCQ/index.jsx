@@ -73,9 +73,9 @@ const MCQ = () => {
             <div className={styles.wrapper} ref={componentRef} id='question' >
                 <div className={styles.header}>
                     Daily&nbsp;<strong>MCQ</strong>
-                    <span className={styles.header__id}>
+                    {/* <span className={styles.header__id}>
                         Q00{questionData.id}
-                    </span>
+                    </span> */}
                 </div>
                 
                 <h1 className={styles.question}>
